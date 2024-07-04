@@ -1,0 +1,56 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 192490,
+    "appName": "File Magic",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "wuhaiqi",
+    "description": "Rechrd666"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "mi-band-7": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/wel",
+            "page/index",
+            "page/index copy",
+            "page/huanbang/wufenghuanbang",
+            "page/huanbang/jg1",
+            "page/huanbang/jg2",
+            "page/about",
+            "page/code_about",
+            "page/fastopen",
+            "page/CAIDAN"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "mi-band-7",
+          "deviceSource": 262
+        }
+      ],
+      "designWidth": 192
+    }
+  },
+  "i18n": {
+    "zh-CN": {
+      "appName": "File Magic"
+    }
+  },
+  "defaultLanguage": "zh-CN"
+}
